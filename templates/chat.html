@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>与玄学大师对话</title>
+  <link rel="stylesheet" href="/static/css/global.css">
+  <script src="/static/js/global.js"></script>
+</head>
+<body>
+
+  <h1>与玄学大师对话 ✨</h1>
+
+  <div class="chat-box">
+    <p>🧙‍♂️ **“吾乃玄学 AI，大道无形，万象森罗。”**</p>
+    <p>🔮 **千年易经之奥，尽在一问之间。**</p>
+    <p>📜 **请诚心发问，你的问题将触动天机……**</p>
+    
+    <h3>✨ **你可以这样问**：</h3>
+    <ul class="question-guide">
+      <li>🔮 <strong>“大师，我的运势如何？”</strong></li>
+      <li>📜 <strong>“帮我占卜今天适不适合出门？”</strong></li>
+      <li>🏮 <strong>“梦见黑龙，这代表什么？”</strong></li>
+      <li>🕰️ <strong>“我今天适合签合同吗？”</strong></li>
+      <li>🗝️ <strong>“请大师用奇门遁甲帮我看一看未来？”</strong></li>
+    </ul>
+
+    <!-- 对话框 -->
+    <div id="chat-result" class="result-box"></div>
+
+    <!-- 计算中提示 -->
+    <div id="chat-loading" class="loading-box" style="display: none;">
+      ⏳ 大师正在观天象、推卦象……请稍候……
+    </div>
+
+    <!-- 用户输入框 -->
+    <input type="text" id="chat-input" placeholder="输入您的问题...">
+    <button id="chat-btn">发送</button>
+  </div>
+
+  <script src="/static/js/chat.js"></script>
+</body>
+</html>

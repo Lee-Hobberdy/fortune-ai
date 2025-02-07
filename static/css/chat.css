@@ -1,0 +1,19 @@
+.chat-box {
+    margin: 50px auto;
+    width: 500px;
+  }
+  .chat-result {
+    min-height: 200px;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.7);
+  }
+  .chat-input {
+    text-align: center;
+  }
+  .chat-input input[type="text"] {
+    width: 300px;
+    margin-right: 10px;
+  }
+  

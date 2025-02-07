@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>测字 | 玄学AI</title>
+  <link rel="stylesheet" href="/static/css/global.css">
+  <script src="/static/js/global.js"></script>
+</head>
+<body>
+
+  <h1>AI 测字：窥探命运的奥秘</h1>
+
+  <div class="measure-box">
+    <p>✨ <strong>本测字 AI</strong> 由 **玄学 AI 研究团队** 训练，结合 **易经、奇门遁甲、梅花易数**，精准解读一个字背后的命运玄机。</p>
+    <p>🧙‍♂️ 这不是普通的随机解读，每一次测字都是基于 **海量古籍**，AI 需要时间推演卦象，请耐心等待……</p>
+    <p>🔮 请输入一个汉字，看看今天的 **运势如何**：</p>
+    <input type="text" id="char-input" placeholder="输入一个字...">
+    <button id="measure-btn">开始测字</button>
+  </div>
+
+  <!-- 计算中提示 -->
+  <div id="loading-message" class="loading-box" style="display: none;">
+    ⏳ AI 正在计算，请稍候…… <br> 
+    🔍 解析字形、五行、卦象……
+  </div>
+
+  <!-- 结果弹窗 -->
+  <div id="result-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close-btn">×</span>
+      <div id="measure-result"></div>
+      <button id="goto-chat-btn">去与大师对话</button>
+    </div>
+  </div>
+
+  <script src="/static/js/measure.js"></script>
+</body>
+</html>

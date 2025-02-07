@@ -1,0 +1,2 @@
+# 忽略 .env 文件，防止 API Key 泄露
+.env
